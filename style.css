@@ -1,18 +1,30 @@
 
-.wrapper {
-    display: inline-flex; /* */
+html{
+    background-color: white;
 }
 
+.wrapper1 {
+    display: inline-flex; /* First Flebox */
+}
+
+.wrapper2 {
+    display: inline-flex; /* Second Flebox */
+}
+
+.wrapper3 { /* Third Flebox */
+    display: inline-flex;
+    margin-left: 40px; 
+}
+/* Header Formatting */
 h2{
     margin: 20px; 
 }
-
+/* Text Formatting */
 p{
     margin-left: 20px;
 }
 
 .one {
-    display: flexbox;
     width: 420px; /* Wider flex */
     height: 500px;
     margin: 10px;
@@ -26,7 +38,6 @@ p{
 }
 
 .two {
-    display: flexbox;
     width: 200px;
     height: 500px;
     margin: 10px;
@@ -39,9 +50,7 @@ p{
     height: 30%;
 }
 
-
 .three {
-    display: flexbox;
     width: 200px;
     height: 450px;
     margin: 10px;
@@ -77,13 +86,11 @@ p{
 }
 
 .four{
-    display: flexbox;
     width: 550px;
     height: 500px;
     margin: 10px;
     background-color: white;
-    margin-left: 50px;
-    box-shadow: 1px 1px 5px 1px gray;
+    box-shadow: 1px 1px 5px 1px gray; /* Drop Shadow */
 }
 
 .four img{
