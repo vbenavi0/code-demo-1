@@ -3,15 +3,15 @@ html{
     background-color: white;
 }
 
-.wrapper1 {
+.flexWrap1 {
     display: inline-flex; /* First Flebox */
 }
 
-.wrapper2 {
+.flexWrap2 {
     display: inline-flex; /* Second Flebox */
 }
 
-.wrapper3 { /* Third Flebox */
+.flexWrap3 { /* Third Flebox */
     display: inline-flex;
     margin-left: 40px; 
 }
@@ -107,4 +107,51 @@ p{
     margin-left: 20px;
     padding: 10px;
     text-decoration: none;
+}
+
+.gridWrap { /* Grid Setup */
+    display: grid;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    grid-template-columns: repeat(7, 205px);
+    gap: 15px;
+    grid-auto-rows: minmax(505px, 505px);
+}
+
+.grid1 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: red;
+    opacity: 50%;
+  }
+.grid2 {
+    grid-column: 3 ;
+    grid-row: 1;
+    background-color: orange;
+    opacity: 50%;
+}
+.grid3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: yellow;
+    opacity: 50%;
+}
+.grid4 {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: green;
+    opacity: 50%;
+}
+.grid5 {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: blue;
+    opacity: 50%;
+}
+.grid6 {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    background-color: purple;
+    opacity: 50%;
 }
